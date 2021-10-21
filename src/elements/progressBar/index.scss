@@ -1,0 +1,15 @@
+.progress-bar {
+  background-color: #F6F6F6;
+  border-radius: dm(1.5);
+  height: dm(3);
+  position: relative;
+  width: 100%;
+  .progress {
+    position: absolute;
+    background-color: $primary;
+    border-radius: dm(1.5);
+    left: 0;
+    top: 0;
+    height: 100%;
+  }
+}

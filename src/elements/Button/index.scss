@@ -1,0 +1,26 @@
+.button {
+  background-color: $primary;
+  color: white;
+  line-height: 1;
+  cursor: pointer;
+  &.size-medium {
+    font-size: $ft-medium;
+    padding: dm(3) dm(6);
+    border-radius: dm(1.5);
+    &.long {
+      padding: dm(3) dm(9);
+    }
+  }
+  &.size-small {
+    font-size: $ft-small;
+    padding: dm(2.5) dm(5);
+    border-radius: dm(1);
+    &.long {
+      padding: dm(2.5) dm(7.5);
+    }
+  }
+  &.grayed {
+    background-color: white;
+    color: black;
+  }
+}

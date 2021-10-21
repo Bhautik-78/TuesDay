@@ -1,0 +1,42 @@
+.countdown-wrapper {
+  .colon {
+    font-size: $ft-xx-large;
+  }
+
+  .circle {
+    width: dm(12);
+    height: dm(12);
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px 0px rgba($gray-2, 0.5);
+
+    .value {
+      font-size: $ft-xx-large;
+      line-height: 1;
+    }
+
+    .label {
+      font-size: dm(2);
+    }
+  }
+}
+
+@media (min-width: $md-width) {
+  .countdown-wrapper {
+    .colon {
+      font-size: $ft-xx-huge;
+    }
+
+    .circle {
+      width: dm(29);
+      height: dm(29);
+
+      .value {
+        font-size: $ft-xx-huge;
+      }
+
+      .label {
+        font-size: $ft-tiny;
+      }
+    }
+  }
+}

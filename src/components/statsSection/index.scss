@@ -1,0 +1,36 @@
+.stats-section {
+  .stats-wrapper {
+    background-color: $primary;
+    padding-top: dm(3);
+    border-radius: dm(3);
+
+    .stats-row {
+      background-color: white;
+      border-radius: dm(3);
+      border-bottom-left-radius: dm(2);
+      border-bottom-right-radius: dm(2);
+      box-shadow: 0px 3px 100px 0px rgba($gray-2, 0.3);
+      overflow: hidden;
+      margin: 0;
+
+      .stat {
+        padding: dm(3);
+      }
+    }
+  }
+}
+
+@media (min-width: $md-width) {
+  .stats-section {
+    padding-top: dm(25);
+    padding-bottom: dm(25);
+
+    .stats-wrapper {
+      .stats-row {
+        .stat {
+          padding: dm(10);
+        }
+      }
+    }
+  }
+}

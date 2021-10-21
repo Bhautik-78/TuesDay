@@ -1,0 +1,39 @@
+.class-body{
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  //max-height: 290px;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #ffffff;
+
+  .imageBox{
+      max-width: 100px;
+      max-height: 100px;
+  }
+
+  h3{
+    padding: 0;
+    margin: 0;
+  }
+
+  .list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+
+    li{
+      padding: 0;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    li::before{
+      content: "\2022";
+      margin-right: 1rem;
+      color: #910C25;
+    }
+  }
+}
+

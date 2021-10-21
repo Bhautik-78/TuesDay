@@ -1,0 +1,35 @@
+.cardMenu{
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  max-width: 980px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.organisation{
+  gap: 1rem;
+}
+
+.organisationText{
+  max-width: 860px;
+}
+
+.logoMenu{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 1rem;
+  max-width: 1080px;
+
+  .logoLine{
+    display: flex;
+
+    .logoBox{
+      padding: 1.5rem;
+      width: 250px;
+    }
+  }
+}

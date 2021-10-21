@@ -1,0 +1,48 @@
+.home {
+  .heading-section {
+    position: relative;
+    color: white;
+    .heading-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    .sub-title {
+      line-height: dm(4);
+    }
+    .title {
+      font-weight: 600;
+      margin: dm(3) 0;
+    }
+    .learn-more {
+      margin-top: dm(8);
+    }
+  }
+  .count-down-section {
+    .progress-bar {
+      margin-top: dm(8);
+      margin-bottom: dm(3);
+      max-width: dm(70);
+    }
+  }
+}
+
+@media (min-width: $md-width) {
+  .home {
+    .heading-section {
+      padding-top: dm(26);
+      padding-bottom: dm(26);
+    }
+    .count-down-section {
+      padding-top: dm(21);
+      padding-bottom: dm(21);     
+      .end-date {
+        margin-bottom: dm(10);
+      }
+    }
+  }
+}

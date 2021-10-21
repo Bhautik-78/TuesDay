@@ -1,0 +1,33 @@
+.involved-section {
+  background-color: #F8F5FC;
+
+  .involved-card {
+    background-color: white;
+
+    &:not(:first-child) {
+      margin-top: dm(5);
+    }
+
+    img {
+      max-height: dm(50);
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .description {
+      height: dm(20);
+      padding: dm(3);
+    }
+  }
+
+  .bullet-points {
+    .bullet-point-icon {
+      height: dm(3);
+    }
+  }
+}
+
+
+.margin-50 {
+  margin: 50px 0px;
+}
